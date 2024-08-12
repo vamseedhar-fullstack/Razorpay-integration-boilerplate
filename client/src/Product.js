@@ -22,10 +22,10 @@ function Product() {
     console.log(order);
 
     var options = {
-      key: "rzp_live_2EWSvUx7aMmKbv", // Enter the Key ID generated from the Dashboard
+      key: "", // Enter the Key ID generated from the Dashboard
       amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
       currency,
-      name: "Yatayati", //your business name
+      name: "", //your business name
       description: "Test Transaction",
       image: logo,
       order_id: order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
